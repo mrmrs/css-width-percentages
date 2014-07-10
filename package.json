@@ -6,8 +6,7 @@
   "keywords": [
     "css",
     "oocss",
-    "",
-    ""
+    "width-percentages"
   ],
   "css-width-percentages": {
     "type": "git",
