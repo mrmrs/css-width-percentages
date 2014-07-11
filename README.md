@@ -120,7 +120,7 @@ or download the css on github and include in your project.
 .wi-100,
 .wi-full {  width: 100%; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .wi-1-ns {     width: 1%; }
   .wi-2-ns {     width: 2%; }
   .wi-3-ns {     width: 3%; }
@@ -223,7 +223,7 @@ or download the css on github and include in your project.
   .wi-full-ns {  width: 100%; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .wi-1-m {     width: 1%; }
   .wi-2-m {     width: 2%; }
   .wi-3-m {     width: 3%; }
@@ -326,7 +326,7 @@ or download the css on github and include in your project.
   .wi-full-m {  width: 100%; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .wi-1-l {     width: 1%; }
   .wi-2-l {     width: 2%; }
   .wi-3-l {     width: 3%; }
