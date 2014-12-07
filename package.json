@@ -1,5 +1,6 @@
 {
   "name": "css-width-percentages",
+  "style": "width-percentages.css",
   "version": "0.0.4",
   "homepage": "http://github.com/mrmrs/css-width-percentages",
   "description": "Css module of single purpose classes for width percentages",
