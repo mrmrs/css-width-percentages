@@ -1,7 +1,7 @@
 {
   "name": "css-width-percentages",
   "style": "width-percentages.css",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "homepage": "http://github.com/mrmrs/css-width-percentages",
   "description": "Css module of single purpose classes for width percentages",
   "keywords": [
@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "tachyons-cli": "^1.0.2"
+    "tachyons-cli": "^1.0.4"
   },
   "scripts": {
     "start": "tachyons src/css-width-percentages.css > css/css-width-percentages.css && tachyons src/css-width-percentages.css --minify > css/css-width-percentages.min.css && tachyons src/css-width-percentages.css --generate-docs --package=../../package.json > readme.md"
