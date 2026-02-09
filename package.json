@@ -1,38 +1,44 @@
 {
   "name": "css-width-percentages",
-  "style": "width-percentages.css",
-  "version": "1.0.7",
-  "homepage": "http://github.com/mrmrs/css-width-percentages",
-  "description": "Css module of single purpose classes for width percentages",
+  "version": "2.0.0",
+  "description": "Functional CSS for width-percentages",
+  "style": "dist/width-percentages.css",
+  "main": "dist/width-percentages.css",
+  "exports": {
+    ".": "./dist/width-percentages.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "width-percentages"
+    "width-percentages",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-width-percentages": {
+  "homepage": "https://github.com/mrmrs/css-width-percentages",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-width-percentages.git"
+    "url": "https://github.com/mrmrs/css-width-percentages.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-width-percentages/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-width-percentages/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
