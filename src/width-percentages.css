@@ -103,7 +103,7 @@
 .wi-100,
 .wi-full {  width: 100%; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .wi-1-s {     width: 1%; }
   .wi-2-s {     width: 2%; }
   .wi-3-s {     width: 3%; }
@@ -206,7 +206,7 @@
   .wi-full-s {  width: 100%; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .wi-1-m {     width: 1%; }
   .wi-2-m {     width: 2%; }
   .wi-3-m {     width: 3%; }
@@ -309,7 +309,7 @@
   .wi-full-m {  width: 100%; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .wi-1-l {     width: 1%; }
   .wi-2-l {     width: 2%; }
   .wi-3-l {     width: 3%; }
